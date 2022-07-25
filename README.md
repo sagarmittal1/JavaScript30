@@ -7,7 +7,7 @@
 
 | No. | Project | Live link |
 |:-----:|:--------:|:-----------:|
-| 1| [🥁 JavaScript Drum Kit][1] | |
+| 1| [🥁 JavaScript Drum Kit][1] | https://sagarmittal1.github.io/JavaScript30/01-JavaScript-Drum-Kit/ |
 
 
 
