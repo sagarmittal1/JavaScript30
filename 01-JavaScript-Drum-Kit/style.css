@@ -2,6 +2,7 @@ html {
     font-size: 10px;
     background: url('./images/background-image.jpg') bottom center;
     background-size: cover;
+    overflow: hidden;
 }
 
 body, html {
@@ -48,6 +49,14 @@ kbd {
     text-transform: uppercase;
     letter-spacing: .1rem;
     color: darkviolet;
+}
+
+header {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(134, 14, 215, 0.5);
 }
 
   
