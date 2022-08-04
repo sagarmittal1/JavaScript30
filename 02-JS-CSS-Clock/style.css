@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    background: linear-gradient(to left, #FFA69E, #FF686B);
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +15,7 @@ body {
 .clock {
     width: 500px;
     height: 500px;
-    background-color: lightgray;
+    background-color: wheat;
     border-radius: 50%;
     border: 4px solid black;
     position: relative;
