@@ -1,0 +1,56 @@
+:root {
+    --spacing: 10px;
+    --blur: 0px;
+    --radius: 2px;
+    --base: #F8333C;
+}
+
+/* made custom scrollbar*/
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #36ade0;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #012a3e8d;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #13293D;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: #08415C;
+    font-family:Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+
+img {
+    padding: var(--spacing);
+    filter: blur(var(--blur));
+    border-radius: var(--radius);
+    background-color: var(--base);
+}
+
+.hl {
+    color: var(--base);
+}
+
+.controls {
+    margin-bottom: 4rem;
+}
+
+h2 {
+    font-size: 5rem;
+}
