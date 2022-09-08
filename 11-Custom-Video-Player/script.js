@@ -73,7 +73,7 @@ progress.addEventListener('mousemove', () => mousedown = false);
 
 fullScreen.addEventListener('click', handleFullScreen);
 
-window.addEventListener('keydown', (e) => {
+window.addEventListener('keypress', (e) => {
     if(e.key === 'f') handleFullScreen();
     if(e.key === ' ') togglePlay();
 })

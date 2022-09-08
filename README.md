@@ -15,6 +15,8 @@
 | 8 | 🌈 Fun with HTML5 Canvas | [GitHub][8] | [Link](https://sagarmittal1.github.io/JavaScript30/08-HTML5-Canvas/)|
 | 9 | 🛠 Dev Tools Domination | - | [Link](https://sagarmittal1.github.io/JavaScript30/09-Dev-Tools)|
 | 10 | ✔ Multiple Check Shift | [GitHub][10] | [Link](https://sagarmittal1.github.io/JavaScript30/10-Multiple-Check-Shift/)|
+| 11 | 📽 Custom Video Player | [GitHub][11] | [Link](https://sagarmittal1.github.io/JavaScript30/11-Custom-Video-Player/)|
+
 
 
 [1]: /01-JavaScript-Drum-Kit/
@@ -25,3 +27,4 @@
 [8]: /08-HTML5-Canvas/
 [9]: /09-Dev-Tools/
 [10]: /10-Multipe-Check-Shift/
+[11]: /11-Custom-Video-Player/
