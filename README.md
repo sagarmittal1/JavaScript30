@@ -16,6 +16,8 @@
 | 9 | 🛠 Dev Tools Domination | - | [Link](https://sagarmittal1.github.io/JavaScript30/09-Dev-Tools)|
 | 10 | ✔ Multiple Check Shift | [GitHub][10] | [Link](https://sagarmittal1.github.io/JavaScript30/10-Multiple-Check-Shift/)|
 | 11 | 📽 Custom Video Player | [GitHub][11] | [Link](https://sagarmittal1.github.io/JavaScript30/11-Custom-Video-Player/)|
+| 12 | 🎊 Key Sequence Detection | [GitHub][12] | [Link](https://sagarmittal1.github.io/JavaScript30/12-Key-Sequence-Detection/)|
+
 
 
 
@@ -28,3 +30,4 @@
 [9]: /09-Dev-Tools/
 [10]: /10-Multipe-Check-Shift/
 [11]: /11-Custom-Video-Player/
+[12]: /12-Key-Sequence-Detection/

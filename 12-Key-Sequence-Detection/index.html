@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Sequence Detection</title>
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    <style>
+        body {
+            background: url(./pattern.svg);
+            font-family: cursive, sans-serif;
+        }
+
+        .title {
+            width: 800px;
+            margin: auto;
+            text-align: center;
+            margin-top: 50px;
+            color: purple;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="title">
+        <h1>🎉 Type my crush 😍 name for surprise 🎊</h1>
+    </div>
+
+    <script>
+        const pressed = [];
+        const secretCode = 'khushi';
+        console.info('Hint: Ask my close friends or figure out on your own 👍')
+
+        window.addEventListener('keyup', (e) => {
+            pressed.push(e.key);
+            pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length);
+            if (pressed.join('').includes(secretCode)) {
+                const jsConfetti = new JSConfetti()
+                jsConfetti.addConfetti({
+                    emojis: ['😍','🥰','😘','🤗','💖','💞','💕','❤️‍🔥','❤️','💋','🎉','🎊','💫'],
+                    emojiSize: 70,
+                    confettiNumber: 100,
+                })
+            }
+        })
+    </script>
+</body>
+
+</html>
