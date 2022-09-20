@@ -18,6 +18,7 @@
 | 11 | 📽 Custom Video Player | [GitHub][11] | [Link](https://sagarmittal1.github.io/JavaScript30/11-Custom-Video-Player/)|
 | 12 | 🎊 Key Sequence Detection | [GitHub][12] | [Link](https://sagarmittal1.github.io/JavaScript30/12-Key-Sequence-Detection/)|
 | 13 | 🤜🏻 Slide in on Scroll | [GitHub][13] | [Link](https://sagarmittal1.github.io/JavaScript30/13-Slide-in-on-Scroll/)|
+| 16 | 🐁 Mouse Move Shadow | [GitHub][16] | [Link](https://sagarmittal1.github.io/JavaScript30/16-Mousemove-Shadow/)|
 
 
 
@@ -32,3 +33,4 @@
 [11]: /11-Custom-Video-Player/
 [12]: /12-Key-Sequence-Detection/
 [13]: /13-Slide-in-on-Scroll/
+[16]: /16-Mousemove-Shadow/

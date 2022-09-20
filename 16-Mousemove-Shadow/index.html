@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Move Shadow</title>
+    <script src="script.js" defer></script>
+
+    <style>
+        html {
+            font-family: sans-serif;
+            color: black;
+        }
+
+        body {
+            margin: 0;
+            background: url('./background.svg');
+        }
+
+        .hero {
+            display: flex;
+            min-height: 100vh;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .hero h1 {
+            font-size: 100px;
+            text-shadow: 10px 10px 0 rgba(0, 0, 0, 1);
+        }
+
+        .hero h3 {
+            color: coral;
+            font-family: monospace;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1 contenteditable="">💖 WOAH!</h1>
+        <h3>Pro Tip: This content is editable :)</h3>
+    </div>
+</body>
+</html>

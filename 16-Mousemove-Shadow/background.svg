@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="1080px" width="1920px">
+  <defs>
+    <pattern id="doodad" width="100" height="100" viewBox="0 0 40 40" patternUnits="userSpaceOnUse" patternTransform="rotate(127)">
+      <rect width="100%" height="100%" fill="#72a744"/>
+      <path d="M0 0h40v40h-40z" fill="#d1d1d1" filter="url(#filter-doodad-1)"/>
+      <path d="M-40 0h1l12 20l-12 20h-1l12-20zM-38 0h1l12 20l-12 20h-1l12-20zM-36 0h1l12 20l-12 20h-1l12-20zM-34 0h1l12 20l-12 20h-1l12-20zM-32 0h1l12 20l-12 20h-1l12-20zM-30 0h1l12 20l-12 20h-1l12-20zM-28 0h1l12 20l-12 20h-1l12-20zM-26 0h1l12 20l-12 20h-1l12-20zM-24 0h1l12 20l-12 20h-1l12-20zM-22 0h1l12 20l-12 20h-1l12-20zM-20 0h1l12 20l-12 20h-1l12-20zM-18 0h1l12 20l-12 20h-1l12-20zM-16 0h1l12 20l-12 20h-1l12-20zM-14 0h1l12 20l-12 20h-1l12-20zM-12 0h1l12 20l-12 20h-1l12-20zM-10 0h1l12 20l-12 20h-1l12-20zM-8 0h1l12 20l-12 20h-1l12-20zM-6 0h1l12 20l-12 20h-1l12-20zM-4 0h1l12 20l-12 20h-1l12-20zM-2 0h1l12 20l-12 20h-1l12-20zM0 0h1l12 20l-12 20h-1l12-20zM2 0h1l12 20l-12 20h-1l12-20zM4 0h1l12 20l-12 20h-1l12-20zM6 0h1l12 20l-12 20h-1l12-20zM8 0h1l12 20l-12 20h-1l12-20zM10 0h1l12 20l-12 20h-1l12-20zM12 0h1l12 20l-12 20h-1l12-20zM14 0h1l12 20l-12 20h-1l12-20zM16 0h1l12 20l-12 20h-1l12-20zM18 0h1l12 20l-12 20h-1l12-20zM20 0h1l12 20l-12 20h-1l12-20zM22 0h1l12 20l-12 20h-1l12-20zM24 0h1l12 20l-12 20h-1l12-20zM26 0h1l12 20l-12 20h-1l12-20zM28 0h1l12 20l-12 20h-1l12-20zM30 0h1l12 20l-12 20h-1l12-20zM32 0h1l12 20l-12 20h-1l12-20zM34 0h1l12 20l-12 20h-1l12-20zM36 0h1l12 20l-12 20h-1l12-20zM38 0h1l12 20l-12 20h-1l12-20z" fill="#ffffff"/>
+    </pattern>
+    <filter id="filter-doodad-1">
+      <feTurbulence baseFrequency="0.1" numOctaves="2" type="fractalNoise" result="result1"/>
+      <feDisplacementMap in2="result1" scale="1" result="result2" xChannelSelector="R" in="SourceGraphic"/>
+      <feComposite in2="result2" in="SourceGraphic" operator="atop" result="fbSourceGraphic"/>
+    </filter>
+  </defs>
+  <rect fill="url(#doodad)" height="200%" width="200%"/>
+</svg>
