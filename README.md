@@ -21,6 +21,8 @@
 | 16 | 🐁 Mouse Move Shadow | [GitHub][16] | [Link](https://sagarmittal1.github.io/JavaScript30/16-Mousemove-Shadow/)|
 | 19 | 📷 Webcam Fun | [GitHub][19] | [Link](https://sagarmittal1.github.io/JavaScript30/19-Webcam-Fun/)|
 | 20 | 🗣 Speech Detection | [GitHub][20] | [Link](https://sagarmittal1.github.io/JavaScript30/20-Speech-Detection/)|
+| 21 | 📌 Geolocation | [GitHub][21] | [Link](https://sagarmittal1.github.io/JavaScript30/21-Geolocation/)|
+
 
 
 [1]: /01-JavaScript-Drum-Kit/
@@ -37,3 +39,4 @@
 [16]: /16-Mousemove-Shadow/
 [19]: /19-Webcam-Fun/
 [20]: /20-Speech-Detection/
+[21]: /21-Geolocation/
