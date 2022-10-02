@@ -20,6 +20,7 @@
 | 13 | 🤜🏻 Slide in on Scroll | [GitHub][13] | [Link](https://sagarmittal1.github.io/JavaScript30/13-Slide-in-on-Scroll/)|
 | 16 | 🐁 Mouse Move Shadow | [GitHub][16] | [Link](https://sagarmittal1.github.io/JavaScript30/16-Mousemove-Shadow/)|
 | 19 | 📷 Webcam Fun | [GitHub][19] | [Link](https://sagarmittal1.github.io/JavaScript30/19-Webcam-Fun/)|
+| 20 | 🗣 Speech Detection | [GitHub][20] | [Link](https://sagarmittal1.github.io/JavaScript30/20-Speech-Detection/)|
 
 
 [1]: /01-JavaScript-Drum-Kit/
@@ -35,3 +36,4 @@
 [13]: /13-Slide-in-on-Scroll/
 [16]: /16-Mousemove-Shadow/
 [19]: /19-Webcam-Fun/
+[20]: /20-Speech-Detection/
