@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speech Detection</title>
+  <script src="main.js" defer></script>
+
+  <style>
+    html {
+      font-size: 10px;
+    }
+
+    body {
+      background-color: rgb(246, 109, 109);
+      font-size: 2rem;
+      font-weight: 200;
+      font-family: Helvetica, sans-serif;
+    }
+
+    .words {
+      max-width: 50rem;
+      margin: 5rem auto;
+      background-color: white;
+      border-radius: 0.5rem;
+      box-shadow: 1rem 1rem 0 rgb(0, 0, 0, 0.1);
+      background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 0.4rem;
+      padding: 1rem 2rem 1rem 5rem;
+      background-size: 100% 3rem;
+      position: relative;
+      line-height: 3rem;
+    }
+
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #eaffd0;
+    }
+
+    .words:before {
+      content: '';
+      position: absolute;
+      width: 0.4rem;
+      top: 0;
+      left: 3rem;
+      bottom: 0;
+      border: 1px solid;
+      border-color: transparent #efe4e4;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Speech to Text</h1>
+    <small>P.S. Results are not very accurate as it is in development phase. Also not say my crush name or else face conequences.</small>
+  </header>
+
+  <div class="words" contenteditable=""></div>
+</body>
+
+</html>
