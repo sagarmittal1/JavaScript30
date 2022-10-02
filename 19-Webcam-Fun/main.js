@@ -5,7 +5,8 @@ const strip = document.querySelector('.strip');
 const snap = document.querySelector('.snap');
 const radioButtons = document.querySelectorAll('input[type="radio"]');
 
-function getVideo() {    navigator.mediaDevices.getUserMedia({ video: true }).then(stream => {
+function getVideo() {
+    navigator.mediaDevices.getUserMedia({ video: true }).then(stream => {
         video.srcObject = stream;
         video.play();
         console.log(stream)
@@ -22,15 +23,15 @@ function paintToCanvas() {
 
     setInterval(() => {
         ctx.drawImage(video, 0, 0, width, height);
-        let pixels = ctx.getImageData(0,0, width, height);
+        let pixels = ctx.getImageData(0, 0, width, height);
 
         // pixels = redEffect(pixels);
 
         radioButtons.forEach(radioButton => {
-            if(radioButton.checked) {
-                if(radioButton.id === 'rgbSplit') {
+            if (radioButton.checked) {
+                if (radioButton.id === 'rgbSplit') {
                     pixels = rgbSplit(pixels);
-                }else{
+                } else {
                     pixels = redEffect(pixels);
                 }
             }
