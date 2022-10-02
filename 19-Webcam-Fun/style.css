@@ -79,9 +79,9 @@ canvas {
 
 .player {
   position: absolute;
-  width: 200px;
-  top: 20px;
-  right: 20px;
+  width: 20rem;
+  top: 2rem;
+  right: 2rem;
   border-radius: 0.5rem;
 }
 
