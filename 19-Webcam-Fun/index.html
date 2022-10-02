@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webcam Fun</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+
+<body>
+  <div class="photobooth">
+    <h1>PhotoBooth</h1>
+    <div class="controls">
+      <button onclick="takePhoto()">Take Photo</button>
+      <div class="filter">
+        <input type="radio" name="filter" id="redEffect" checked>
+        <label for="redEffect">Red Effect</label>
+        <input type="radio" name="filter" id="rgbSplit">
+        <label for="rgbSplit">RGB Split Effect</label>
+      </div>
+    </div>
+
+    <div class="canvas-container">
+      <canvas class="photo"></canvas>
+      <p style="margin-bottom: 0;">Click to download</p>
+    </div>
+
+    <video class="player"></video>
+    <div class="strip"></div>
+  </div>
+
+  <audio class="snap" src="./snap.mp3" hidden></audio>
+</body>
+
+</html>
