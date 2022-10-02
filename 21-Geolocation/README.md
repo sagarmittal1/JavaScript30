@@ -7,6 +7,7 @@
 - Learned about `navigator.geolocation` Web API
 - Learned various things that are present in geolocation that can be used.
 - They all serve over HTTPS so use localhost or other that is available.
+- Get to know about `toFixed(digits)`
 
 ## Some important things
 - Also added latitude & longitude

@@ -5,7 +5,7 @@ const longitude = document.querySelector('.longitude');
 
 navigator.geolocation.watchPosition((data) => {
     // console.log(data);
-    speed.textContent = data.coords.speed || 00;
+    speed.textContent = (data.coords.speed * 1.0).toFixed(2);
     latitude.textContent = data.coords.latitude;
     longitude.textContent = data.coords.longitude;
     compass.style.transform = `rotate(${data.coords.heading}deg)`;
