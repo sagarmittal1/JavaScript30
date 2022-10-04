@@ -22,7 +22,7 @@
 | 19 | 📷 Webcam Fun | [GitHub][19] | [Link](https://sagarmittal1.github.io/JavaScript30/19-Webcam-Fun/)|
 | 20 | 🗣 Speech Detection | [GitHub][20] | [Link](https://sagarmittal1.github.io/JavaScript30/20-Speech-Detection/)|
 | 21 | 📌 Geolocation | [GitHub][21] | [Link](https://sagarmittal1.github.io/JavaScript30/21-Geolocation/)|
-
+| 23 | 💬 Speech Synthesis | [GitHub][23] | [Link](https://sagarmittal1.github.io/JavaScript30/23-Speech-Synthesis//)|
 
 
 [1]: /01-JavaScript-Drum-Kit/
@@ -40,3 +40,4 @@
 [19]: /19-Webcam-Fun/
 [20]: /20-Speech-Detection/
 [21]: /21-Geolocation/
+[23]: /23-Speech-Synthesis/
