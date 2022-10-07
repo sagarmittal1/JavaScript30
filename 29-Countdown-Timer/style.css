@@ -55,6 +55,10 @@ body {
   padding: 2rem;
 }
 
+input {
+  font-size: 1.5rem;
+}
+
 .timer__button {
   background: none;
   border: 0;
@@ -81,4 +85,14 @@ body {
   align-items: center;
   flex-direction: column;
   flex: 1;
+}
+
+/* added for making it responsive */
+@media (max-width: 50rem) {
+  .timer__controls {
+    flex-direction: column;
+  }
+  .display h1{
+    font-size: 15rem;
+  }
 }

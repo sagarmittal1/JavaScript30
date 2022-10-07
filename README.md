@@ -23,6 +23,7 @@
 | 20 | 🗣 Speech Detection | [GitHub][20] | [Link](https://sagarmittal1.github.io/JavaScript30/20-Speech-Detection/)|
 | 21 | 📌 Geolocation | [GitHub][21] | [Link](https://sagarmittal1.github.io/JavaScript30/21-Geolocation/)|
 | 23 | 💬 Speech Synthesis | [GitHub][23] | [Link](https://sagarmittal1.github.io/JavaScript30/23-Speech-Synthesis/)|
+| 29 | ⏱ Countdown Timer | [GitHub][29] | [Link](https://sagarmittal1.github.io/JavaScript30/29-Countdown-Timer/)|
 
 
 [1]: /01-JavaScript-Drum-Kit/
@@ -41,3 +42,4 @@
 [20]: /20-Speech-Detection/
 [21]: /21-Geolocation/
 [23]: /23-Speech-Synthesis/
+[29]: /29-Countdown-Timer/
