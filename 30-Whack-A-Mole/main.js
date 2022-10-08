@@ -8,13 +8,13 @@ let timeUp = false;
 let score = 0;
 
 function randomTime(min, max) {
-    return Math.round(Math.random() * (max-min) + min);
+    return Math.round(Math.random() * (max - min) + min);
 }
 
 function randomHole(holes) {
     const idx = Math.floor(Math.random() * holes.length);
     const hole = holes[idx];
-    if(hole === lastHole) {
+    if (hole === lastHole) {
         return randomHole(holes);
     }
     lastHole = hole;
@@ -28,7 +28,7 @@ function peep() {
     hole.classList.add('up');
     setTimeout(() => {
         hole.classList.remove('up');
-        if(!timeUp) peep();
+        if (!timeUp) peep();
     }, time);
 }
 
@@ -40,12 +40,12 @@ function startGame() {
     peep();
     setTimeout(() => {
         timeUp = true;
-        btn.textContent = 'GAME OVER, START AGAIN!'
+        btn.textContent = 'GAME OVER, START AGAIN!';
     }, 10000);
 }
 
 function bonk(e) {
-    if(!e.isTrusted) return // for cheaters
+    if (!e.isTrusted) return // for cheaters
     score++;
     this.parentNode.classList.remove('up');
     scoreBoard.textContent = score;
