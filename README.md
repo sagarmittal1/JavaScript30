@@ -23,6 +23,7 @@
 | 20 | 🗣 Speech Detection | [GitHub][20] | [Link](https://sagarmittal1.github.io/JavaScript30/20-Speech-Detection/)|
 | 21 | 📌 Geolocation | [GitHub][21] | [Link](https://sagarmittal1.github.io/JavaScript30/21-Geolocation/)|
 | 23 | 💬 Speech Synthesis | [GitHub][23] | [Link](https://sagarmittal1.github.io/JavaScript30/23-Speech-Synthesis/)|
+| 24 | 🍡 Sticky Nav | [GitHub][24] | [Link](https://sagarmittal1.github.io/JavaScript30/24-Sticky-Nav)|
 | 29 | ⏱ Countdown Timer | [GitHub][29] | [Link](https://sagarmittal1.github.io/JavaScript30/29-Countdown-Timer/)|
 | 30 | 🎮 Whack A Mole | [GitHub][30] | [Link](https://sagarmittal1.github.io/JavaScript30/30-Whack-A-Mole/)|
 
@@ -43,5 +44,9 @@
 [20]: /20-Speech-Detection/
 [21]: /21-Geolocation/
 [23]: /23-Speech-Synthesis/
+[24]: /24-Sticky-Nav/
 [29]: /29-Countdown-Timer/
 [30]: /30-Whack-A-Mole/
+
+
+*Completed **19 / 30** projects 🥳🤩*
