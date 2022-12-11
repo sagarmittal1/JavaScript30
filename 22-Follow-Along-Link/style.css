@@ -1,0 +1,70 @@
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+*,*:before,*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: url(./background.svg);
+  font-family: sans-serif;
+  min-height: 100vh;
+  color: black;
+  font-size: 2rem;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 50rem;
+  line-height: 2;
+  position: relative;
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  background-color: rgba(0, 0, 0, 0.08);
+  /* background-color: red; */
+  border-radius: 2rem;
+}
+
+.highlight {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  display: block;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  border-radius: 2rem;
+  background: white;
+  transition: all 0.2s;
+  border-bottom: 2px solid white;
+}
+
+.menu {
+  padding: 0;
+  display: flex;
+  margin: 10rem 0;
+  justify-content: center;
+  list-style: none;
+}
+
+.menu a {
+  padding: 0.5rem;
+  display: inline-block;
+  margin: 0 2rem;
+  font-size: 1.8rem;
+}
+
+@media (max-width: 45rem) {
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu a {
+    margin-bottom: 1rem;
+  }
+}
