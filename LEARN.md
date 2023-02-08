@@ -21,6 +21,7 @@ Features include:
 - HTML
 - CSS
 - Vanilla JavaScript
+- GitHub Pages
 
 ## Setting Up the Project
 
